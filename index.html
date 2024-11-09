@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="index.css"/>
+    <title>Dynamic resume builder</title>
+</head>
+
+<body>
+    <h1 id="heading">Dynamic Resume Builder Form</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <h3>Name:
+                <input type="text" placeholder="Enter your first name" name="name" id="name"/>
+            </h3>
+
+            <h3>Description:
+                <input type="text" id="description" name="description"/>
+            </h3>
+            <h3>Phone Number:
+                <input type="tel" name="phoneNumber" placeholder="Enter your phone number" id="phoneNumber"/>
+            </h3>
+            <h3>E-mail Address:
+                <input type="text" name="emailAddress" placeholder="Enter your e-mail address" id="emailAddress"/>
+            </h3>
+            <h3>Address:
+                <input type="text" name="address" placeholder="Enter your home address" id="address"/>
+            </h3>
+            <h3>Education:
+                <input type="text" name="education" placeholder="Enter your education" id="education"/>
+            </h3>
+            <h3>Institude:
+                <input type="text" name="institude" placeholder="Enter the institude name" id="institude"/>
+            </h3>
+            <h3>Picture:
+                <input type="file" name="resumePic" id="resumePic"/>
+            </h3>
+        </fieldset>
+        <h3>Skills:
+            <input type="text" name="skills" placeholder="" id="skills" /> 
+         </h3>
+        <h3>Languages:
+            <input type="text" name="languages" placeholder="" id="languages"/> 
+         </h3>
+        <h3>Hobies:
+            <input type="text" name="hobies" placeholder="" id="hobies"/> 
+         </h3>
+         <h3>Awards:
+            <input type="text" name="hobies" placeholder="" id="awards"/>
+         </h3>
+         <h3>Summary:
+            <textarea id="summary" placeholder="" name="summary"></textarea>
+         </h3>
+         <h3>Experience:
+            <textarea placeholder="Enter the experience" name="experience" id="experience"></textarea>
+         </h3>
+         <button type="submit" >Submit</button>
+    </form>
+   
+
+    <div id="resumeOutput"></div>
+
+
+    <script src="index.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to right, #6aa84f, #f6f1c1);
+    padding-top: 2%;
+}
+
+#heading{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#resumeForm {
+    background-color: rgb(205, 253, 205);
+    box-shadow: 2px 2px 4px 4px rgb(98, 138, 98);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    background: blue;
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: xx-large;
+    margin-left: 30%;
+}
+
+#resumeOutput {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px white;
+    width: 100%;
+    height: 100%;
+}
+
+#resumeOutput section {
+    background-color:  blue;
+    color: white;
+    padding: 1%;
+    position: absolute;
+    width: 25%;
+    height: inherit;
+     border-radius: 20px;
+}
+
+#resumeOutput  div {
+    text-align: center;
+     width: 100%;
+     height: 100%;
+ }
+
+#resumeOutput img {
+    border-radius: 40%;
+ }
+
+ #resumeOutput p {
+    text-align: center;
+ }
+ 
